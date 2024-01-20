@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: lavenderblush;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 40%;
+            min-height: 800px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+        }
+
+        .blue-section {
+            background: rgb(6, 42, 76);
+            padding: 20px;
+            color: white;
+            text-align: justify; /* Justify the content */
+        }
+
+        .blue-section h3 {
+            margin-bottom: 10px;
+        }
+
+        .blue-section a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .github-logo {
+            font-size: 24px;
+        }
+
+        .white-section {
+            padding: 20px;
+        }
+
+        ul, li {
+            font-size: 12px;
+        }
+
+        .personalinfo {
+            color: white;
+            font-size: 27px;
+        }
+
+        a,p {
+            font-size: 15px;
+        }
+
+        .size {
+            font-size: 14px;
+        }
+
+        /* Keep default dotted line styling for <hr> but make it justified */
+        hr {
+            border: none;
+            border-style: solid;
+            border-top: 1px #ccc; /* Dotted line with color */
+            clear: both;
+            margin: 10px 0; /* Margin above and below the line */
+            height: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blue-section">
+            <div class="personalinfo">
+                <h3>SIDDHI&nbspAWARI</h3>
+                <!-- GitHub and LinkedIn links with Font Awesome icons -->
+                <a href="https://github.com/siddhi-awari" target="_blank" placeholder="siddhi-awari">
+                    <i class="fab fa-github github-logo"></i> siddhi-awari
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/siddhi-a-a32701252/" target="_blank">
+                    <i class="fab fa-linkedin"></i> siddhi awari
+                </a>        
+                <p>siddhiawari6@gmail.com</p>
+                <p>9321573614</p>
+                <br>
+                <h4>Summary</h4>
+                <p>Currently, I am a second year Computer Engineering student studying at VESIT. I like finding creative solutions to problems
+                    and building user-friendly programs. Offering a friendly and helpful attitude. Committed to working as a collaborative and
+                    positive team member, at the same time skilled in overseeing the maintenance and planning of small and large activities.</p>
+                <br>
+                <h4>Additional Information</h4>
+                <li class="size">3 Star coder at HackerRank [C programming]</li>
+                <li class="size">I create Digital designs</li>    
+            </div>
+        </div>
+        <div class="white-section">
+            <!-- Education Section -->
+            <div>
+                <h3>Education</h3>
+                <h5>Vivekanand Education Society's Institute of Technology | 2026</h5>
+                <ul>BE Computer Engineering</ul>
+                <li>Skills: C, Java, Computer Graphics, AUTOCAD.</li>
+                <li>Projects: PETCLINIC. Building a user-friendly model using Java which acts as a link between the pet owner and the clinic</li>
+                <li>Grade: 9.6 [avg till sem 3]</li>
+                <h5>Ramnarayan Ruia Junior College | 2022</h5>
+                <ul>HSC Science</ul>
+                <li>Scored the highest marks in physics(98/100).</li>
+                <li>Grade:91.83 Cet Percentile: 98.60</li>
+                <h5>Loreto Convent School | 2020</h5>
+                <li>Stood first in std 10 Grade:95%</li>
+                <li>I participated in many interschool competitions (e.g. dance, elocution, painting, science quiz)</li>
+                <li>Won a bronze medal in the Math Olympiad.</li>
+                <li>I was a part of the Social Work Team. Participated in many co-curricular activities</li>
+                <hr>
+            </div>
+
+            <!-- Professional Experience Section -->
+            <div>
+                <h3>Professional Experience</h3>
+                <h5>AIML Intern-InternPe</h5>
+                <ul>Build projects like car price prediction, diabetes prediction, ipl winning team prediction, breast cancer prediction</ul>
+                <hr>
+            </div>
+
+            <!-- Skills Section -->
+            <div>
+                <h3>Skills</h3>
+                <h5>Technical Skills</h5>
+                <ul>Skilled in C, HTML, CSS, Java, Python, Canva.</ul>
+                <ul>Build a few projects using C, Java and Python available on github</ul>
+                <h5>Soft Skills</h5>
+                <li>TEAMWORK AND LEADERSHIP 
+                <ul>I have been a teamleader for many projects in school and college and can work well with a team and manage things under pressure.</ul></li>
+                <li>PROBLEM SOLVING</li>
+                <li>CONFIDENCE</li>
+                <li>TIME MANAGEMENT</li>
+                <hr>
+            </div>
+
+            <!-- Courses Section -->
+            <div>
+                <h4>Courses</h4>
+                <li>Java Course - Mastering the Fundamentals: Scaler</li>
+                <li>Welcome to HTML : coursera</li>
+                <li>Computer Graphics : Udemy</li>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
